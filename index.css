@@ -1,0 +1,54 @@
+.body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-login{
+    background-color: rgb(127, 255, 212);
+    box-shadow: 2px 2px 3px 3px rgb(158, 127, 123);
+    border: 1px solid rgb(75, 72, 72);
+    height: 70vh;
+    width: 30vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.container-login:hover{
+    background-color: rgb(117, 215, 222);
+    color: rgb(15, 57, 32);
+    height: 75vh;
+    width: 45vw;
+    border-radius: 25px;
+    box-shadow: 3px 3px 4px 4px rgb(63, 85, 74) ;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in-out;
+}
+#exampleFormControlTextarea1:hover{
+    background-color: rgb(157, 212, 193);
+    border-radius: 30px;
+    transition-duration: 2s !important;
+}
+#exampleFormControlInput1:hover{
+    background-color: rgb(157, 212, 193);
+    border-radius: 30px;
+}
+.buttonradius:hover{
+    background-color: rgb(204, 246, 232) !important;
+    border-radius: 50px;
+    color: rgb(0, 0, 0) !important;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in-out;
+}
+
+
+
+
+
+
+
+
